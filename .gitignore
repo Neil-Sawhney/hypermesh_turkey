@@ -1,6 +1,2 @@
-*
-!/.gitignore
-!/Turducken_CFD.hm
-!/Turducken_CFD.mvw
-!/Turducken.hm
-!/Turducken.mvw
+./Turducken_CFD_*
+./Turducken_*

@@ -1,0 +1,9 @@
+*createmark(elements,1)        27922 
+        72253
+*entitysetcreate("OS_elcheck_all",elements,1)
+*createmark(elements,1)        27922 
+        72253
+*entitysetcreate("OS_elcheck_skew   ",elements,1)
+*createmark(elements,1)        27922 
+        72253
+*entitysetcreate("OS_elcheck_angle  ",elements,1)
