@@ -1,2 +1,5 @@
-./Turducken_CFD_*
-./Turducken_*
+/*.out
+/*.stat
+/*.h3d
+/*.mvw
+/*.mesg
