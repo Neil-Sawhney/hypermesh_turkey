@@ -1,5 +1,9 @@
-/*.out
-/*.stat
-/*.h3d
-/*.mvw
-/*.mesg
+*
+!**/
+!**/*.hstudy
+!**/*.hm
+!**/*.pdf
+!**/*.step
+!**/*.SLDPRT
+!**/*.x_t
+!.gitignore
