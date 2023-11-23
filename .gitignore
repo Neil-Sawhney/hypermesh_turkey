@@ -7,3 +7,4 @@
 !**/*.SLDPRT
 !**/*.x_t
 !.gitignore
+!/artifacts/**/*
