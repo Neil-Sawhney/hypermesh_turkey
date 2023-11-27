@@ -7,7 +7,7 @@
     http://www.altair.com
   -->
   <DocumentProperties>
-    <FileDate>2023-11-26 18:22:27 </FileDate>
+    <FileDate>2023-11-27 12:40:48 </FileDate>
     <Revision>0.0</Revision>
     <Author></Author>
     <System>Windows [Version 6.2.9200] (64 bit)</System>
@@ -61,14 +61,14 @@
           <DataSourceList></DataSourceList>
           <GradientList></GradientList>
           <DesignVariableList>
-            <DesignVariable varname="oven_temp">
+            <DesignVariable varname="varname_1">
               <Label>oven_temp</Label>
               <Comment></Comment>
               <ScalarTool type="Templex">
                 <Expression></Expression>
               </ScalarTool>
               <ModelParameter>
-                <Name>oven_temp</Name>
+                <Name>varname_1</Name>
                 <ModelVarname>m_2</ModelVarname>
                 <MetaDataList></MetaDataList>
                 <Unit>
@@ -83,25 +83,25 @@
                 <Type>Real</Type>
                 <Mode>Continuous</Mode>
                 <Levels></Levels>
-                <LowerBound type="double"> 449.8</LowerBound>
-                <NominalValue type="double"> 449.8</NominalValue>
+                <LowerBound type="double"> 449.82</LowerBound>
+                <NominalValue type="double"> 449.82</NominalValue>
                 <UpperBound type="double"> 560</UpperBound>
               </FixedVariable>
               <RandomVariable>
                 <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
-                <Param_Alpha> 449.8</Param_Alpha>
-                <Param_Beta> 759.0024999999998</Param_Beta>
+                <Param_Alpha> 449.82</Param_Alpha>
+                <Param_Beta> 758.7270250000001</Param_Beta>
                 <Param_Gamma></Param_Gamma>
               </RandomVariable>
             </DesignVariable>
-            <DesignVariable varname="rod_flux">
+            <DesignVariable varname="varname_2">
               <Label>rod_flux</Label>
               <Comment></Comment>
               <ScalarTool type="Templex">
                 <Expression></Expression>
               </ScalarTool>
               <ModelParameter>
-                <Name>rod_flux</Name>
+                <Name>varname_2</Name>
                 <ModelVarname>m_2</ModelVarname>
                 <MetaDataList></MetaDataList>
                 <Unit>
@@ -116,14 +116,47 @@
                 <Type>Real</Type>
                 <Mode>Continuous</Mode>
                 <Levels></Levels>
-                <LowerBound type="double"> 500</LowerBound>
-                <NominalValue type="double"> 2500</NominalValue>
-                <UpperBound type="double"> 5000</UpperBound>
+                <LowerBound type="double"> 2000</LowerBound>
+                <NominalValue type="double"> 5000</NominalValue>
+                <UpperBound type="double"> 20000</UpperBound>
               </FixedVariable>
               <RandomVariable>
-                <StatisticalDistribution>Uniform</StatisticalDistribution>
-                <Param_Alpha> 500</Param_Alpha>
-                <Param_Beta> 5000</Param_Beta>
+                <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
+                <Param_Alpha> 5000</Param_Alpha>
+                <Param_Beta> 2.025e+07</Param_Beta>
+                <Param_Gamma></Param_Gamma>
+              </RandomVariable>
+            </DesignVariable>
+            <DesignVariable varname="varname_3">
+              <Label>rod_turn_off_time</Label>
+              <Comment></Comment>
+              <ScalarTool type="Templex">
+                <Expression></Expression>
+              </ScalarTool>
+              <ModelParameter>
+                <Name>varname_3</Name>
+                <ModelVarname>m_2</ModelVarname>
+                <MetaDataList></MetaDataList>
+                <Unit>
+                  <Name></Name>
+                  <Type></Type>
+                </Unit>
+              </ModelParameter>
+              <State>true</State>
+              <Category>Controlled</Category>
+              <Role>Design</Role>
+              <FixedVariable>
+                <Type>Real</Type>
+                <Mode>Continuous</Mode>
+                <Levels></Levels>
+                <LowerBound type="double"> 3600</LowerBound>
+                <NominalValue type="double"> 10800</NominalValue>
+                <UpperBound type="double"> 10800</UpperBound>
+              </FixedVariable>
+              <RandomVariable>
+                <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
+                <Param_Alpha> 10800</Param_Alpha>
+                <Param_Beta> 3240000</Param_Beta>
                 <Param_Gamma></Param_Gamma>
               </RandomVariable>
             </DesignVariable>
@@ -1796,14 +1829,14 @@
           </DataSourceList>
           <GradientList></GradientList>
           <DesignVariableList>
-            <DesignVariable varname="oven_temp">
+            <DesignVariable varname="varname_1">
               <Label>oven_temp</Label>
               <Comment></Comment>
               <ScalarTool type="Templex">
                 <Expression></Expression>
               </ScalarTool>
               <ModelParameter>
-                <Name>oven_temp</Name>
+                <Name>varname_1</Name>
                 <ModelVarname>m_1</ModelVarname>
                 <MetaDataList></MetaDataList>
                 <Unit>
@@ -1818,25 +1851,25 @@
                 <Type>Real</Type>
                 <Mode>Continuous</Mode>
                 <Levels></Levels>
-                <LowerBound type="double"> 449.8</LowerBound>
-                <NominalValue type="double"> 449.8</NominalValue>
+                <LowerBound type="double"> 449.82</LowerBound>
+                <NominalValue type="double"> 449.82</NominalValue>
                 <UpperBound type="double"> 560</UpperBound>
               </FixedVariable>
               <RandomVariable>
                 <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
-                <Param_Alpha> 449.8</Param_Alpha>
-                <Param_Beta> 759.0024999999998</Param_Beta>
+                <Param_Alpha> 449.82</Param_Alpha>
+                <Param_Beta> 758.7270250000001</Param_Beta>
                 <Param_Gamma></Param_Gamma>
               </RandomVariable>
             </DesignVariable>
-            <DesignVariable varname="rod_flux">
+            <DesignVariable varname="varname_2">
               <Label>rod_flux</Label>
               <Comment></Comment>
               <ScalarTool type="Templex">
                 <Expression></Expression>
               </ScalarTool>
               <ModelParameter>
-                <Name>rod_flux</Name>
+                <Name>varname_2</Name>
                 <ModelVarname>m_1</ModelVarname>
                 <MetaDataList></MetaDataList>
                 <Unit>
@@ -1851,14 +1884,47 @@
                 <Type>Real</Type>
                 <Mode>Continuous</Mode>
                 <Levels></Levels>
-                <LowerBound type="double"> 500</LowerBound>
-                <NominalValue type="double"> 2500</NominalValue>
-                <UpperBound type="double"> 5000</UpperBound>
+                <LowerBound type="double"> 2000</LowerBound>
+                <NominalValue type="double"> 5000</NominalValue>
+                <UpperBound type="double"> 20000</UpperBound>
               </FixedVariable>
               <RandomVariable>
                 <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
-                <Param_Alpha> 2500</Param_Alpha>
-                <Param_Beta> 1265625</Param_Beta>
+                <Param_Alpha> 5000</Param_Alpha>
+                <Param_Beta> 2.025e+07</Param_Beta>
+                <Param_Gamma></Param_Gamma>
+              </RandomVariable>
+            </DesignVariable>
+            <DesignVariable varname="varname_3">
+              <Label>rod_turn_off_time</Label>
+              <Comment></Comment>
+              <ScalarTool type="Templex">
+                <Expression></Expression>
+              </ScalarTool>
+              <ModelParameter>
+                <Name>varname_3</Name>
+                <ModelVarname>m_1</ModelVarname>
+                <MetaDataList></MetaDataList>
+                <Unit>
+                  <Name></Name>
+                  <Type></Type>
+                </Unit>
+              </ModelParameter>
+              <State>true</State>
+              <Category>Controlled</Category>
+              <Role>Design</Role>
+              <FixedVariable>
+                <Type>Real</Type>
+                <Mode>Continuous</Mode>
+                <Levels></Levels>
+                <LowerBound type="double"> 3600</LowerBound>
+                <NominalValue type="double"> 10800</NominalValue>
+                <UpperBound type="double"> 10800</UpperBound>
+              </FixedVariable>
+              <RandomVariable>
+                <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
+                <Param_Alpha> 10800</Param_Alpha>
+                <Param_Beta> 3240000</Param_Beta>
                 <Param_Gamma></Param_Gamma>
               </RandomVariable>
             </DesignVariable>
@@ -3778,7 +3844,7 @@
             <ArgumentList></ArgumentList>
           </Command>
           <Command varname="cmd_purge">
-            <StateUI>true</StateUI>
+            <StateUI>false</StateUI>
             <StateBatch>false</StateBatch>
             <ArgumentList>
               <Argument varname="filenames">
