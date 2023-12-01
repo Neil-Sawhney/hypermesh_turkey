@@ -2,9 +2,11 @@
 !**/
 !**/*.hstudy
 !**/*.hm
+!**/*.py
 !**/*.pdf
 !**/*.step
 !**/*.SLDPRT
 !**/*.x_t
 !.gitignore
 !/artifacts/**/*
+!**/*.removethisextension
