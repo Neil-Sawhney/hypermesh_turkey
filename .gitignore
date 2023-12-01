@@ -7,6 +7,6 @@
 !**/*.step
 !**/*.SLDPRT
 !**/*.x_t
+!**/*.stl
 !.gitignore
 !/artifacts/**/*
-!**/*.removethisextension

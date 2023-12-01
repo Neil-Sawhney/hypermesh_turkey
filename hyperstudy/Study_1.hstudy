@@ -7,7 +7,7 @@
     http://www.altair.com
   -->
   <DocumentProperties>
-    <FileDate>2023-12-01 13:42:39 </FileDate>
+    <FileDate>2023-12-01 15:50:02 </FileDate>
     <Revision>0.0</Revision>
     <Author></Author>
     <System>Windows [Version 6.2.9200] (64 bit)</System>
@@ -343,7 +343,7 @@
                   <Comment></Comment>
                   <Role>file</Role>
                   <InVault>false</InVault>
-                  <PathOrigin>study-file:///study.tpl</PathOrigin>
+                  <PathOrigin>file:///C:/Users/NeilSawhney/OneDrive - Neil Sawhney/Documents/CooperFiles/FourthYear/First_Semester/Computer_Aided_Engineering/Final/artifacts/study.tpl</PathOrigin>
                   <PathLocal>run-file:///m_1/study.tpl</PathLocal>
                   <Operation>WriteInput</Operation>
                   <Format></Format>
@@ -1876,7 +1876,7 @@
                   <Type></Type>
                 </Unit>
               </ModelParameter>
-              <State>false</State>
+              <State>true</State>
               <Category>Controlled</Category>
               <Role>Design</Role>
               <FixedVariable>
@@ -1918,12 +1918,12 @@
                 <Levels></Levels>
                 <LowerBound type="double"> 3600</LowerBound>
                 <NominalValue type="double"> 6889.7438</NominalValue>
-                <UpperBound type="double"> 13500</UpperBound>
+                <UpperBound type="double"> 17250</UpperBound>
               </FixedVariable>
               <RandomVariable>
                 <StatisticalDistribution>Normal_Variance</StatisticalDistribution>
                 <Param_Alpha> 6889.7438</Param_Alpha>
-                <Param_Beta> 6125625</Param_Beta>
+                <Param_Beta> 1.164515625e+07</Param_Beta>
                 <Param_Gamma></Param_Gamma>
               </RandomVariable>
             </DesignVariable>
